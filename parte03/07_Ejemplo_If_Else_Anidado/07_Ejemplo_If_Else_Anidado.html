@@ -15,7 +15,7 @@
 
         let respuesta; // Variable en la que guardaremos la respuesta del usuario
 
-        respuesta = prompt("Adivina el número entre 1 y 10"); // Mostramos en pantalla instrucciones para el usuario y guardamos la respuesta
+        respuesta = parseInt(prompt("Adivina el número entre 1 y 10")); // Mostramos en pantalla instrucciones para el usuario y guardamos la respuesta
         if (respuesta == correcta) // Si ha acertado el número
         {
             console.log("Has adivinado el número en el intento 1."); // Le felicitamos
