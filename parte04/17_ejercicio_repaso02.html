@@ -18,6 +18,13 @@
         * 3. Una vez sepas que posición ocupa dicho carácter, puedes recuperar una subcadena que devuelva el primer número
         * y otra subcadena que contenga el segundo número
         */
+        let suma = prompt("Realize una suma");
+        let mas = suma.indexOf("+");
+        let numero1 = suma.substring(0,mas);
+        let numero2 = suma.substring(mas+1);
+
+
+        console.log("Los numeros de la operacion son " + numero1 + " y " + numero2); 
     </script>
 </body>
 
