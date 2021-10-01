@@ -24,6 +24,25 @@
         * 9	2
         * 10 1
         */
+        let ejercicio = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        while (true)
+        {          
+            let posicion = parseInt(prompt("Introduce un número del 0 al 10:"));
+            if (posicion > 10) {
+                console.log("Número Incorrecto");
+            }
+
+
+            if (posicion < 0) {
+                for (let i = 0; i < ejercicio.length; i++) {
+
+                    console.log(i + " " + " " + ejercicio[i]);
+                }
+                break;}
+           
+            ejercicio[posicion] = ejercicio[posicion] + 1;
+            console.log(ejercicio[posicion]);
+        }
     </script>
 </body>
 
